@@ -7,8 +7,8 @@
 # Created: 03/15/2021
 # Updated: 03/16/2021
 # Author:  Willian De Marchi
-# Website: https://demarchitechnology.com
-# You can contact me by e-mail at contato@demarchitechnology.com
+# Website: https://wdmbr.wordpress.com
+# You can contact me by e-mail at williandemarchi@gmail.com
 #
 # IMPORTANT!
 # Minimum supported RouterOS version is v6.43.7

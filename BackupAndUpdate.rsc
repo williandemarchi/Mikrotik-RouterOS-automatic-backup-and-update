@@ -188,7 +188,7 @@ if ([:len [/system identity get name]] = 0 or [/system identity get name] = "Mik
 :local mailBody 	 		"";
 
 :local mailBodyDeviceInfo	"\r\n\r\nDevice information: \r\nIdentity: $deviceIdentityName \r\nModel: $deviceRbModel \r\nSerial number: $deviceRbSerialNumber \r\nCurrent RouterOS: $deviceOsVerInst ($[/system package update get channel]) $[/system resource get build-time] \r\nCurrent routerboard FW: $deviceRbCurrentFw \r\nDevice uptime: $[/system resource get uptime]";
-:local mailBodyCopyright 	"\r\n\r\nMikrotik RouterOS automatic backup & update \r\nhttps://github.com/beeyev/Mikrotik-RouterOS-automatic-backup-and-update";
+:local mailBodyCopyright 	"\r\n\r\nMikrotik RouterOS automatic backup & update \r\nhttps://github.com/williandemarchi/Mikrotik-RouterOS-automatic-backup-and-update";
 :local changelogUrl			("Check RouterOS changelog: https://mikrotik.com/download/changelogs/" . $updateChannel . "-release-tree");
 
 :local backupName 			"$deviceIdentityName.$deviceRbModel.$deviceRbSerialNumber.v$deviceOsVerInst.$deviceUpdateChannel.$dateTime";

@@ -393,3 +393,4 @@ if ($isOsNeedsToBeUpdated = true) do={
 }
 
 :log info "$SMP script \"Mikrotik RouterOS automatic backup & update\" completed it's job.\r\n";
+
